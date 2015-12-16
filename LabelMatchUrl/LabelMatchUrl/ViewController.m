@@ -217,29 +217,5 @@
     return idx;
 }
 
-//#pragma mark - public
-//
-//-(void)bubbleViewPressed:(id)sender
-//{
-//    UITapGestureRecognizer *tap = (UITapGestureRecognizer *)sender;
-//    CGPoint point = [tap locationInView:_label];
-//    CFIndex charIndex = [self characterIndexAtPoint:point];
-//    
-//    [self highlightLinksWithIndex:NSNotFound];
-//    
-//    for (NSTextCheckingResult *match in _urlMatches) {
-//        
-//        if ([match resultType] == NSTextCheckingTypeLink) {
-//            
-//            NSRange matchRange = [match range];
-//            
-//            if ([self isIndex:charIndex inRange:matchRange]) {
-//                
-////                [self routerEventWithName:kRouterEventTextURLTapEventName userInfo:@{KMESSAGEKEY:self.model, @"url":match.URL}];
-//                break;
-//            }
-//        }
-//    }
-//}
 
 @end
